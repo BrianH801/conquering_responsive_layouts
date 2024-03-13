@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+
+body{
+    margin: 0;
+}
+
+.parent {
+    background-color: black;
+    padding: 50px;
+
+    /* width: 900px */
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child {
+    background-color: aqua;
+    /* normally I wouldn't include
+    a height it's hust to get
+    us started */
+    height: 250px;
+    width: 50%;
+}
